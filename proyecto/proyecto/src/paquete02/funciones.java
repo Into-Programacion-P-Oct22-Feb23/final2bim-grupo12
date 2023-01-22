@@ -35,7 +35,7 @@ public class funciones {
                 + "Pais: %s\n"
                 + "Correo electronico%s\n",
                  salida,
-                 usuario,
+                 usuario,   
                  edad,
                  ciudad,
                  pais,
@@ -65,7 +65,7 @@ public class funciones {
                 + "Telefono: %d\n"
                 + "Edad: %d\n"
                 + "Ciudad: %s\n"
-                + "Pais%s\n",
+                + "Pais: %s\n",
                  salida,
                  usuario,
                  telefono,
