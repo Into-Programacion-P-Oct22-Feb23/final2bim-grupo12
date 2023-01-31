@@ -20,7 +20,7 @@ public class funciones {
         System.out.println("Ingrese su edad: ");
         int edad = entrada.nextInt();
         entrada.nextLine();
-        System.out.println("Ingrese su ciudad ");
+        System.out.println("Ingrese su ciudad: ");
         String ciudad = entrada.nextLine();
         System.out.println("Ingrese su pais: ");
         String pais = entrada.nextLine();
@@ -84,7 +84,7 @@ public class funciones {
         System.out.println("Ingrese su telefono: ");
         int telefono = entrada.nextInt();
         entrada.nextLine();
-        System.out.println("Ingrese su ciudad ");
+        System.out.println("Ingrese su ciudad: ");
         String ciudad = entrada.nextLine();
         System.out.println("Ingrese su pais: ");
         String pais = entrada.nextLine();

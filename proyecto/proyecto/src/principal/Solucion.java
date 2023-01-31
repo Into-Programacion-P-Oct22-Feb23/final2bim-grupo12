@@ -36,30 +36,38 @@ public class Solucion {
             String salida;
             if (op == 1) {
                 salida = funciones.crearFacebook();
+                cont = cont + 1;
                 System.out.printf("%s\n", salida);
 
             } else if (op == 2) {
                 procedimientos.crearTwitter();
+                cont = cont + 1;
             } else if (op == 3) {
                 salida = funciones.crearWhatsapp();
+                cont = cont + 1;
                 System.out.printf("%s\n", salida);
             } else if (op == 4) {
                 procedimientos.crearTelegram();
+                cont = cont + 1;
             } else if (op == 5) {
                 salida = funciones.crearSignal();
+                cont = cont + 1;
                 System.out.printf("%s\n", salida);
             } else if (op == 6) {
                 procedimientos.crearInstagram();
+                cont = cont + 1;
             } else if (op == 7) {
                 salida = funciones.crearFlickr();
+                cont = cont + 1;
                 System.out.printf("%s\n", salida);
             } else {
                     System.out.println("ERROR opcion no existente.");
+                    cont = cont + 0;
             }
 
             System.out.println("Ingrese 0 si desea terminar el proceso  de "
                     + "no ser asi ingrese cualquier numero: ");
-            cont = cont + 1;
+            
             int indice = entrada.nextInt();
             if (indice == 0) {
                 bandera = false;

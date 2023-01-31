@@ -24,7 +24,7 @@ public class procedimientos {
         System.out.println("Ingrese su edad: ");
         int edad = entrada.nextInt();
         entrada.nextLine();
-        System.out.println("Ingrese su ciudad ");
+        System.out.println("Ingrese su ciudad: ");
         String ciudad = entrada.nextLine();
         System.out.println("Ingrese su pais: ");
 
@@ -65,7 +65,7 @@ public class procedimientos {
         System.out.println("Ingrese su telefono: ");
         int telefono = entrada.nextInt();
         entrada.nextLine();
-        System.out.println("Ingrese su ciudad ");
+        System.out.println("Ingrese su ciudad: ");
         String ciudad = entrada.nextLine();
         System.out.println("Ingrese su pais: ");
         String pais = entrada.nextLine();
@@ -95,7 +95,7 @@ public class procedimientos {
         System.out.println("Ingrese un nombre de Usuario: ");
         String usuario = entrada.nextLine();
 
-        System.out.println("Ingrese su ciudad ");
+        System.out.println("Ingrese su ciudad: ");
         String ciudad = entrada.nextLine();
         System.out.println("Ingrese su Edad: ");
         int edad = entrada.nextInt();
